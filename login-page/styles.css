@@ -1,0 +1,86 @@
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.tracking-normal {
+  letter-spacing: 0;
+}
+.mt-6{
+margin-top: 60px;
+}
+
+.mt-7{
+margin-top: 80px;
+}
+::placeholder {
+    color: #1C1C1C;
+    opacity: 1; /* ensure full visibility */
+}
+
+/* Optional: for browser compatibility */
+.custom-placeholder::placeholder {
+  color: #1C1C1C !important;
+  opacity: 1 !important;
+}
+.btn-login {
+  background-color: #6C63FF;       /* Exact purple from your design */
+  color: white;                    /* White text */
+  font-weight: 600;                /* Semi-bold */
+  padding: 15px 30px;              /* Size like design */
+  border-radius: 20px;             /* Pill shape */
+  border: none;                    /* Clean look */
+  font-family: 'Poppins', sans-serif; /* Match text style */
+  font-size: 1rem;                 /* Normal readable size */
+  transition: background-color 0.3s ease; /* Smooth hover */
+}
+
+.btn-login:hover {
+  background-color: #5a52d4;       /* Slightly darker on hover */
+}
+.small-line {
+  width: 60px !important;
+}
+
+.input-color{
+  background-color: #F0EDFFCC;
+}
+.background{ 
+   background: url('images/Backgroundimage.png') no-repeat center center;
+  background-size: cover; }
+
+.h-60{
+  height: 60%;
+}
+.w-60{
+  width: 60%;
+}
+.lh{
+  line-height: 1.1;
+}
+.g-p{
+  right: -40px;
+  bottom: 0;
+}
+.e-p{
+  bottom:80px;
+  left: -30px;
+}
+@media(max-width:1200px){
+.girl-img{
+ 
+  height: 70% !important;
+}
+.image-div{
+  height: 50% !important;
+}
+.p-class{
+  font-size: 23px !important;
+}
+}
+@media (max-width:270px){
+  @media (max-width: 270px) {
+  .your-class {
+    font-size: 14px; /* or whatever size you want */
+  }
+}
+
+}
